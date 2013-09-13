@@ -36,6 +36,7 @@ if path.exists(repository):
 	cur.execute(sql)
 	rows = cur.fetchall()
 	r.flushdb()
+	es.delete_index("readream")
 	for row in rows:
 		r.hset(CALIBRE_ALL_BOOKS_HASH, row['id'], json.dumps(dict(row)))
 		r.zadd(CALIBRE_ALL_BOOKS_SET,  json.dumps(dict(row)), row['id'])
