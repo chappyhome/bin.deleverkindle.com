@@ -114,7 +114,7 @@ def del_sqlite_and_dir():
 	#conn = sqlite3.connect(repository)
 	#conn.row_factory = sqlite3.Row
 	#cur = conn.cursor()
-	global conn, cur, sqlite3, sys, unzip_dir, system, CALIBRE_ALL_BOOKS_HASH, CALIBRE_ALL_BOOKS_SET, CALIBRE_EPUB_PATH_HASH,r
+	global conn, cur, sqlite3, sys, unzip_dir, system, CALIBRE_ALL_BOOKS_HASH, CALIBRE_ALL_BOOKS_SET, CALIBRE_EPUB_PATH_HASH, r, es
 	sql = 'select * from books \
 	where title in (select  title  from  books  group  by  title  having  count(title) > 1)'
 	cur.execute(sql)
@@ -152,6 +152,7 @@ def del_sqlite_and_dir():
 		r.zrem(CALIBRE_ALL_BOOKS_SET, id)
 		r.hdel(CALIBRE_ALL_BOOKS_HASH, id)
 		r.hdel(CALIBRE_EPUB_PATH_HASH, id)
+		es.delete("readream", "books", id)
 	#del dir
 	for dir in del_dir_list:
 		if unzip_dir in dir and len(dir) > len(unzip_dir) and path.exists(dir):
