@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 
 import subprocess
@@ -9,16 +9,6 @@ import esclient
 import re
 from os import path, system
 import ConfigParser
-
-#init redis
-pool = redis.ConnectionPool(host='127.0.0.1', port=6379)
-r = redis.Redis(connection_pool=pool)
-#init sqlite3
-conn = sqlite3.connect(repository)
-conn.row_factory = sqlite3.Row
-cur = conn.cursor()
-#init es
-es = esclient.ESClient(elasticsearch_host)
 
 cf = ConfigParser.ConfigParser()
 cf.read("config.conf")
@@ -35,6 +25,16 @@ CALIBRE_EPUB_PATH_HASH = cf.get("key", "CALIBRE_EPUB_PATH_HASH")
 #CALIBRE_ALL_BOOKS_SET  = 'calibre_all_books_sort_set'
 #CALIBRE_ALL_BOOKS_HASH = 'calibre_all_books_hash'
 #CALIBRE_EPUB_PATH_HASH = 'calibre_epub_path_hash'
+
+#init redis
+pool = redis.ConnectionPool(host='127.0.0.1', port=6379)
+r = redis.Redis(connection_pool=pool)
+#init sqlite3
+conn = sqlite3.connect(repository)
+conn.row_factory = sqlite3.Row
+cur = conn.cursor()
+#init es
+es = esclient.ESClient(elasticsearch_host)
 
 
 
