@@ -7,6 +7,7 @@ import redis
 import pyinotify
 import esclient
 import re
+import json
 from os import path, system
 import ConfigParser
 
