@@ -16,6 +16,7 @@ CALIBRE_ALL_BOOKS_SET  = cf.get("key", "CALIBRE_ALL_BOOKS_SET")
 CALIBRE_ALL_BOOKS_HASH  = cf.get("key", "CALIBRE_ALL_BOOKS_HASH")
 CALIBRE_EPUB_PATH_HASH  = cf.get("key", "CALIBRE_EPUB_PATH_HASH")
 
+#///
 #CALIBRE_ALL_BOOKS_SET  = 'calibre_all_books_sort_set'
 #CALIBRE_ALL_BOOKS_HASH = 'calibre_all_books_hash'
 #CALIBRE_EPUB_PATH_HASH = 'calibre_epub_path_hash'
