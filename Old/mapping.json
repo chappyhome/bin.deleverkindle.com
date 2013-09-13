@@ -1,0 +1,46 @@
+{
+  "mappings": {
+      "books": {
+      "_all": {
+          "analyzer": "ik"
+      },
+        "properties": {
+          "id": {
+              "type": "long"
+          },
+          "title": {
+              "type": "string",
+              "analyzer": "ik",
+              "include_in_all":true
+          },
+          "timestamp": {
+              "type": "string"
+          },
+          "pubdate": {
+              "type": "string"
+          },
+          "isbn": {
+              "type": "string"
+          },
+          "path": {
+              "type": "string"
+          },
+          "uuid": {
+              "type": "string"
+          },
+          "has_cover": {
+              "type": "string"
+          },
+          "desc": {
+              "type": "string",
+              "analyzer": "ik",
+              "include_in_all":true
+          },
+          "author": {
+              "type": "string",
+              "analyzer": "ik"
+          }
+        }
+      }
+    }
+}

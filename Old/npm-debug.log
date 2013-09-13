@@ -1,0 +1,54 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install', 'subprocess' ]
+2 info using npm@1.3.3
+3 info using node@v0.10.14
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'subprocess', null ]
+6 verbose cache add name=undefined spec="subprocess" args=["subprocess",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'subprocess',
+7 verbose parsed url   path: 'subprocess',
+7 verbose parsed url   href: 'subprocess' }
+8 silly lockFile d2d1e1c0-subprocess subprocess
+9 verbose lock subprocess /root/.npm/d2d1e1c0-subprocess.lock
+10 silly lockFile d2d1e1c0-subprocess subprocess
+11 silly lockFile d2d1e1c0-subprocess subprocess
+12 verbose addNamed [ 'subprocess', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 4633d1ae-subprocess subprocess@
+15 verbose lock subprocess@ /root/.npm/4633d1ae-subprocess.lock
+16 silly addNameRange { name: 'subprocess', range: '*', hasData: false }
+17 verbose url raw subprocess
+18 verbose url resolving [ 'https://registry.npmjs.org/', './subprocess' ]
+19 verbose url resolved https://registry.npmjs.org/subprocess
+20 info trying registry request attempt 1 at 17:17:23
+21 http GET https://registry.npmjs.org/subprocess
+22 http 404 https://registry.npmjs.org/subprocess
+23 silly registry.get cb [ 404,
+23 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+23 silly registry.get     date: 'Fri, 06 Sep 2013 09:21:03 GMT',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'content-length': '52',
+23 silly registry.get     'cache-control': 'must-revalidate' } ]
+24 silly lockFile 4633d1ae-subprocess subprocess@
+25 silly lockFile 4633d1ae-subprocess subprocess@
+26 error 404 'subprocess' is not in the npm registry.
+26 error 404 You should bug the author to publish it
+26 error 404
+26 error 404 Note that you can also install from a
+26 error 404 tarball, folder, or http url, or git url.
+27 error System Linux 2.6.32-358.14.1.el6.i686
+28 error command "node" "/usr/bin/npm" "install" "subprocess"
+29 error cwd /opt/bin
+30 error node -v v0.10.14
+31 error npm -v 1.3.3
+32 error code E404
+33 verbose exit [ 1, true ]
