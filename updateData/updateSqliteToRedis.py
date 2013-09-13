@@ -21,7 +21,8 @@ CALIBRE_EPUB_PATH_HASH  = cf.get("key", "CALIBRE_EPUB_PATH_HASH")
 #CALIBRE_ALL_BOOKS_HASH = 'calibre_all_books_hash'
 #CALIBRE_EPUB_PATH_HASH = 'calibre_epub_path_hash'
 #CALIBRE_PATH_EPUB_HASH = 'calibre_path_epub_hash'
-repository = "/root/all_book_library/Calibre/metadata.db"
+#repository = "/root/all_book_library/Calibre/metadata.db"
+repository =  cf.get("path", "repository")
 pool = redis.ConnectionPool(host='127.0.0.1', port=6379)  
 r = redis.Redis(connection_pool=pool)
 es = esclient.ESClient("http://localhost:9200/")
