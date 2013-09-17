@@ -19,6 +19,8 @@ CALIBRE_EPUB_PATH_HASH  = cf.get("key", "CALIBRE_EPUB_PATH_HASH")
 CALIBRE_ALL_SERIES_SET  = cf.get("key", "CALIBRE_ALL_SERIES_SET")
 CALIBRE_SERIES_BOOKS_HASH  = cf.get("key", "CALIBRE_SERIES_BOOKS_HASH")
 
+BOOK_LIBRARY  = cf.get("path", "BOOK_LIBRARY")
+
 #///
 #CALIBRE_ALL_BOOKS_SET  = 'calibre_all_books_sort_set'
 #CALIBRE_ALL_BOOKS_HASH = 'calibre_all_books_hash'
@@ -49,13 +51,15 @@ if path.exists(repository):
 	r.flushdb()
 	es.delete_index("readream")
 	for row in rows:
-		r.hset(CALIBRE_ALL_BOOKS_HASH, row['id'], json.dumps(dict(row)))
-		r.zadd(CALIBRE_ALL_BOOKS_SET,  json.dumps(dict(row)), row['id'])
-		r.hset(CALIBRE_EPUB_PATH_HASH, row['id'], row['path'])
+		p = BOOK_LIBRARY + "/" + row['path'] + '/cover_128_190.jpg';
+		if path.exists(p):
+			r.hset(CALIBRE_ALL_BOOKS_HASH, row['id'], json.dumps(dict(row)))
+			r.zadd(CALIBRE_ALL_BOOKS_SET,  json.dumps(dict(row)), row['id'])
+			r.hset(CALIBRE_EPUB_PATH_HASH, row['id'], row['path'])
 
-		data = dict(row)
-		book_id = row['id']
-		es.index("readream", "books", body=data, docid=book_id)
+			data = dict(row)
+			book_id = row['id']
+			es.index("readream", "books", body=data, docid=book_id)
 
 	sql = 'select id, name from series'
 	cur.execute(sql)
