@@ -20,6 +20,9 @@ elasticsearch_host     = cf.get("path", "elasticsearch_host")
 CALIBRE_ALL_BOOKS_SET  = cf.get("key", "CALIBRE_ALL_BOOKS_SET")
 CALIBRE_ALL_BOOKS_HASH = cf.get("key", "CALIBRE_ALL_BOOKS_HASH")
 CALIBRE_EPUB_PATH_HASH = cf.get("key", "CALIBRE_EPUB_PATH_HASH")
+
+CALIBRE_ALL_SERIES_SET  = cf.get("key", "CALIBRE_ALL_SERIES_SET")
+CALIBRE_SERIES_BOOKS_HASH  = cf.get("key", "CALIBRE_SERIES_BOOKS_HASH")
 #repository = "/root/all_book_library/Calibre/metadata.db"
 #unzip_dir = "/var/www/html/public/reader/epub_content/"
 #BOOK_LIBRARY = '/root/all_book_library/Calibre'
@@ -95,7 +98,9 @@ class EventHandler(pyinotify.ProcessEvent):
 			system(command)
 
 		#del data and dir
-		del_sqlite_and_dir()		
+		del_sqlite_and_dir()
+
+		update_sqlite_to_redis()	
 
 
 		
@@ -165,6 +170,24 @@ def del_sqlite_and_dir():
     except sqlite3.Error, e:
         print "Error %s:" % e.args[0]
         #sys.exit(1)
+
+def update_sqlite_to_redis():
+	try:
+		global conn, cur, sqlite3, r, CALIBRE_ALL_SERIES_SET, CALIBRE_SERIES_BOOKS_HASH
+
+		sql = 'select id, name from series'
+		cur.execute(sql)
+		rows = cur.fetchall()
+		for row in rows:
+			r.zadd(CALIBRE_ALL_SERIES_SET,  row['name'], row['id'])
+
+			sql = 'select book from books_series_link where series=%s' % row['id']
+			cur.execute(sql)
+			books = cur.fetchall()
+			book_ids = [book['book'] for book in books]
+			r.hset(CALIBRE_SERIES_BOOKS_HASH, row['id'], json.dumps(book_ids))
+	except sqlite3.Error, e:
+		print "Error %s:" % e.args[0]
 
 notifier = pyinotify.Notifier(wm, EventHandler())
 mask = pyinotify.IN_MOVED_TO | pyinotify.IN_CREATE

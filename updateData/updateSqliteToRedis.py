@@ -16,6 +16,9 @@ CALIBRE_ALL_BOOKS_SET  = cf.get("key", "CALIBRE_ALL_BOOKS_SET")
 CALIBRE_ALL_BOOKS_HASH  = cf.get("key", "CALIBRE_ALL_BOOKS_HASH")
 CALIBRE_EPUB_PATH_HASH  = cf.get("key", "CALIBRE_EPUB_PATH_HASH")
 
+CALIBRE_ALL_SERIES_SET  = cf.get("key", "CALIBRE_ALL_SERIES_SET")
+CALIBRE_SERIES_BOOKS_HASH  = cf.get("key", "CALIBRE_SERIES_BOOKS_HASH")
+
 #///
 #CALIBRE_ALL_BOOKS_SET  = 'calibre_all_books_sort_set'
 #CALIBRE_ALL_BOOKS_HASH = 'calibre_all_books_hash'
@@ -29,6 +32,14 @@ es = esclient.ESClient("http://localhost:9200/")
 conn = sqlite3.connect(repository)
 conn.row_factory = sqlite3.Row
 cur = conn.cursor()
+
+
+def getBookPath(id):
+	global cur
+	sql = 'select path from books where id=%s' % id
+	cur.execute(sql)
+	row = cur.fetchone()
+	return "cover/" + row['path'] + "/cover_128_190.jpg" if row else "assets/images/cover_128_190.jpg"
 
 if path.exists(repository):
 	sql = 'select books.id,title,timestamp,pubdate, isbn ,path,uuid, has_cover, text as desc,\
@@ -46,8 +57,20 @@ if path.exists(repository):
 		book_id = row['id']
 		es.index("readream", "books", body=data, docid=book_id)
 
-		#pattern = re.compile('^(.*)\s+\(\d+\)$')
-		#match = pattern.match(row['path'])
-		#if match:
-		#	p = match.groups()
-		#	r.hset(CALIBRE_PATH_EPUB_HASH, p[0], row['id'])
+	sql = 'select id, name from series'
+	cur.execute(sql)
+	rows = cur.fetchall()
+	for row in rows:
+		sql = 'select book from books_series_link where series=%s' % row['id']
+		cur.execute(sql)
+		books = cur.fetchall()
+		book_ids = [book['book'] for book in books]
+		if len(book_ids)>0:
+			first_id = book_ids[0]
+			path = getBookPath(first_id)
+			data = {"id":row['id'], "name":row['name'],"path":path}
+			r.zadd(CALIBRE_ALL_SERIES_SET,  json.dumps(data), row['id'])
+			r.hset(CALIBRE_SERIES_BOOKS_HASH, row['id'], json.dumps(book_ids))
+
+
+
