@@ -8,21 +8,24 @@ import pyinotify
 import esclient
 import re
 import json
+#import time
 from os import path, system
 import ConfigParser
 
 cf = ConfigParser.ConfigParser()
 cf.read("config.conf")
 repository             =  cf.get("path", "repository")
-unzip_dir              = cf.get("path", "workDir")
-BOOK_LIBRARY           = cf.get("path", "BOOK_LIBRARY")
-elasticsearch_host     = cf.get("path", "elasticsearch_host")
-CALIBRE_ALL_BOOKS_SET  = cf.get("key", "CALIBRE_ALL_BOOKS_SET")
-CALIBRE_ALL_BOOKS_HASH = cf.get("key", "CALIBRE_ALL_BOOKS_HASH")
-CALIBRE_EPUB_PATH_HASH = cf.get("key", "CALIBRE_EPUB_PATH_HASH")
+dropbox_repository     =  cf.get("path", "dropbox_repository")
+unzip_dir              =  cf.get("path", "workDir")
+BOOK_LIBRARY           =  cf.get("path", "BOOK_LIBRARY")
+elasticsearch_host     =  cf.get("path", "elasticsearch_host")
+CALIBRE_ALL_BOOKS_SET  =  cf.get("key", "CALIBRE_ALL_BOOKS_SET")
+CALIBRE_ALL_BOOKS_HASH =  cf.get("key", "CALIBRE_ALL_BOOKS_HASH")
+CALIBRE_EPUB_PATH_HASH =  cf.get("key", "CALIBRE_EPUB_PATH_HASH")
 
-CALIBRE_ALL_SERIES_SET  = cf.get("key", "CALIBRE_ALL_SERIES_SET")
+CALIBRE_ALL_SERIES_SET     = cf.get("key", "CALIBRE_ALL_SERIES_SET")
 CALIBRE_SERIES_BOOKS_HASH  = cf.get("key", "CALIBRE_SERIES_BOOKS_HASH")
+TMP_BOOK_ID                = cf.get("key", "TMP_BOOK_ID")
 #repository = "/root/all_book_library/Calibre/metadata.db"
 #unzip_dir = "/var/www/html/public/reader/epub_content/"
 #BOOK_LIBRARY = '/root/all_book_library/Calibre'
@@ -37,6 +40,10 @@ r = redis.Redis(connection_pool=pool)
 conn = sqlite3.connect(repository)
 conn.row_factory = sqlite3.Row
 cur = conn.cursor()
+
+#dropbox_conn = sqlite3.connect(dropbox_repository)
+#dropbox_conn.row_factory = sqlite3.Row
+#dropbox_cur = dropbox_conn.cursor()
 #init es
 es = esclient.ESClient(elasticsearch_host)
 
@@ -55,6 +62,10 @@ class EventHandler(pyinotify.ProcessEvent):
     def process_IN_MOVED_TO(self, evt):
         print "IN_MOVED_TO ", evt.pathname
         ext = path.splitext(evt.pathname)[1]
+
+	if ext == '.db':
+	    book_id = r.get(TMP_BOOK_ID)
+	    update_single_series_to_redis(book_id)
         if ext == '.epub':
             dir = path.dirname(evt.pathname)
             command = 'calibredb add -d "{0}" --library-path {1}'.format(dir,  BOOK_LIBRARY)
@@ -76,10 +87,13 @@ class EventHandler(pyinotify.ProcessEvent):
 		r.zadd(CALIBRE_ALL_BOOKS_SET,  json.dumps(dict(row)), row['id'])
 		r.hset(CALIBRE_EPUB_PATH_HASH, row['id'], row['path'])
 
+		r.set(TMP_BOOK_ID, bookid)
+
 		data = dict(row)
 		book_id = row['id']
 		print "index to es"
 		es.index("readream", "books", body=data, docid=book_id)
+
 
 		#unzip
 		output = unzip_dir + row['path']
@@ -100,7 +114,7 @@ class EventHandler(pyinotify.ProcessEvent):
 		#del data and dir
 		del_sqlite_and_dir()
 
-		update_sqlite_to_redis()	
+		#update_all_sqlite_series_to_redis()	
 
 
 		
@@ -171,24 +185,61 @@ def del_sqlite_and_dir():
         print "Error %s:" % e.args[0]
         #sys.exit(1)
 
-def update_sqlite_to_redis():
+def getBookPath(id):
+	global cur
+	sql = 'select path from books where id=%s' % id
+	cur.execute(sql)
+	row = cur.fetchone()
+	return "cover/" + row['path'] + "/cover_128_190.jpg" if row else "assets/images/cover_128_190.jpg"
+
+def getDropboxDbSeriesName():
+	global sqlite3, dropbox_repository
+	dropbox_conn = sqlite3.connect(dropbox_repository)
+	dropbox_conn.row_factory = sqlite3.Row
+	dropbox_cur = dropbox_conn.cursor()
+
+	sql = 'select name from series order by id desc'
+	dropbox_cur.execute(sql)
+	series = dropbox_cur.fetchone()
+	return  series['name']
+
+def update_single_series_to_redis(book_id):
 	try:
 		global conn, cur, sqlite3, r, CALIBRE_ALL_SERIES_SET, CALIBRE_SERIES_BOOKS_HASH
 
-		sql = 'select id, name from series'
+		series_name = getDropboxDbSeriesName()
+		sql = 'select id from series where name="%s"' % series_name.encode('utf-8')
 		cur.execute(sql)
-		rows = cur.fetchall()
-		for row in rows:
-			r.zadd(CALIBRE_ALL_SERIES_SET,  row['name'], row['id'])
-
-			sql = 'select book from books_series_link where series=%s' % row['id']
+		series = cur.fetchone()
+		print sql
+		print series
+		if series is not None and len(series)>0:
+			series_id = series['id']
+			sql = 'insert into books_series_link(book, series) values({0}, {1})'.format(book_id, series_id)
 			cur.execute(sql)
-			books = cur.fetchall()
-			book_ids = [book['book'] for book in books]
-			r.hset(CALIBRE_SERIES_BOOKS_HASH, row['id'], json.dumps(book_ids))
+			conn.commit()
+		else:
+			sql = 'insert or replace into series( name, sort) values( "{0}", "{1}")'.format(series_name.encode('utf-8'), series_name.encode('utf-8'))
+			cur.execute(sql)
+			series_id = cur.lastrowid
+
+			sql = 'insert or replace into books_series_link(book, series) values({0}, {1})'.format(book_id, series_id)
+			cur.execute(sql)
+			conn.commit()
+		sql = 'select book from books_series_link where series=%s' % series_id
+		cur.execute(sql)
+		books = cur.fetchall()
+		book_ids = [book['book'] for book in books]
+		print book_ids
+		if len(book_ids)>0:
+			first_id = book_ids[0]
+			path = getBookPath(first_id)
+			data = {"id":book_id, "name":series_name,"path":path}
+			r.zadd(CALIBRE_ALL_SERIES_SET,  json.dumps(data), book_id)
+			r.hset(CALIBRE_SERIES_BOOKS_HASH, book_id, json.dumps(book_ids))
+
 	except sqlite3.Error, e:
 		print "Error %s:" % e.args[0]
-
 notifier = pyinotify.Notifier(wm, EventHandler())
 mask = pyinotify.IN_MOVED_TO | pyinotify.IN_CREATE
 watcher = wm.add_watch("/root/Dropbox/calibre", mask, rec=True, auto_add=True)
