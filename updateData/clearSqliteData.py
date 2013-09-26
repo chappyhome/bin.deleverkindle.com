@@ -39,6 +39,7 @@ try:
 	del_sql_books = 'delete from books where id in(' + ','.join(id_del_list) + ')'
 	del_sql_data = 'delete from data where book in(' + ','.join(id_del_list) + ')'
 	del_sql_comments = 'delete from comments where book in(' + ','.join(id_del_list) + ')'
+	del_sql_series = 'delete from books_series_link where book in(' + ','.join(id_del_list) + ')'
 
 	del_dir_list = [workDir + item for item in p_del_list]
 	# print del_dir_list
@@ -46,6 +47,7 @@ try:
 	cur.execute(del_sql_books)
 	cur.execute(del_sql_data)
 	cur.execute(del_sql_comments)
+	cur.execute(del_sql_series)
 	conn.commit()
 
 	#del dir
