@@ -80,7 +80,9 @@ class EventHandler(pyinotify.ProcessEvent):
 		fid = match.groups()[0]
 		bookid = int(fid)
 		print match.groups()[0]
-		sql = 'select * from books where id=%d' % bookid
+		#sql = 'select * from books where id=%d' % bookid
+		sql = 'select books.id,title,timestamp,pubdate, isbn ,path,uuid, has_cover, text as desc,\
+		      author_sort as author from books left join comments on books.id = comments.book where books.id=%d' % bookid
 		cur.execute(sql)
 		row = cur.fetchone()
 		#add to redis and index to es	
