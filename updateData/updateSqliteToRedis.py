@@ -54,8 +54,9 @@ if path.exists(repository):
 		p = BOOK_LIBRARY + "/" + row['path'] + '/cover_128_190.jpg';
 		if path.exists(p):
 			r.hset(CALIBRE_ALL_BOOKS_HASH, row['id'], json.dumps(dict(row)))
-			r.zadd(CALIBRE_ALL_BOOKS_SET,  json.dumps(dict(row)), row['id'])
-			r.hset(CALIBRE_EPUB_PATH_HASH, row['id'], row['path'])
+			#r.zadd(CALIBRE_ALL_BOOKS_SET,  json.dumps(dict(row)), row['id'])
+			r.zadd(CALIBRE_ALL_BOOKS_SET,   row['id'], 0)
+			#r.hset(CALIBRE_EPUB_PATH_HASH, row['id'], row['path'])
 
 			data = dict(row)
 			book_id = row['id']
