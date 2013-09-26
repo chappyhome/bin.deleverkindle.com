@@ -85,7 +85,8 @@ class EventHandler(pyinotify.ProcessEvent):
 		row = cur.fetchone()
 		#add to redis and index to es	
 		r.hset(CALIBRE_ALL_BOOKS_HASH, row['id'], json.dumps(dict(row)))
-		r.zadd(CALIBRE_ALL_BOOKS_SET,  json.dumps(dict(row)), row['id'])
+		#r.zadd(CALIBRE_ALL_BOOKS_SET,  json.dumps(dict(row)), row['id'])
+		r.zadd(CALIBRE_ALL_BOOKS_SET,  row['id'], 0)
 		r.hset(CALIBRE_EPUB_PATH_HASH, row['id'], row['path'])
 
 		r.set(TMP_BOOK_ID, bookid)
