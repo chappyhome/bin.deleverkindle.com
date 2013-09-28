@@ -38,6 +38,7 @@ pool = redis.ConnectionPool(host='127.0.0.1', port=6379)
 r = redis.Redis(connection_pool=pool)
 #init sqlite3
 conn = sqlite3.connect(repository)
+conn.text_factory=str
 conn.row_factory = sqlite3.Row
 cur = conn.cursor()
 
@@ -79,12 +80,15 @@ class EventHandler(pyinotify.ProcessEvent):
 		fid = match.groups()[0]
 		bookid = int(fid)
 		print match.groups()[0]
-		sql = 'select * from books where id=%d' % bookid
+		#sql = 'select * from books where id=%d' % bookid
+		sql = 'select books.id,title,timestamp,pubdate, isbn ,path,uuid, has_cover, text as desc,\
+		      author_sort as author from books left join comments on books.id = comments.book where books.id=%d' % bookid
 		cur.execute(sql)
 		row = cur.fetchone()
 		#add to redis and index to es	
 		r.hset(CALIBRE_ALL_BOOKS_HASH, row['id'], json.dumps(dict(row)))
-		r.zadd(CALIBRE_ALL_BOOKS_SET,  json.dumps(dict(row)), row['id'])
+		#r.zadd(CALIBRE_ALL_BOOKS_SET,  json.dumps(dict(row)), row['id'])
+		r.zadd(CALIBRE_ALL_BOOKS_SET,  row['id'], 0)
 		r.hset(CALIBRE_EPUB_PATH_HASH, row['id'], row['path'])
 
 		r.set(TMP_BOOK_ID, bookid)
@@ -157,6 +161,7 @@ def del_sqlite_and_dir():
 	del_sql_books = 'delete from books where id in(' + ','.join(id_del_list) + ')'
 	del_sql_data = 'delete from data where book in(' + ','.join(id_del_list) + ')'
 	del_sql_comments = 'delete from comments where book in(' + ','.join(id_del_list) + ')'
+	del_sql_series = 'delete from books_series_link where book in(' + ','.join(id_del_list) + ')'
 
 	del_dir_list = [unzip_dir + item for item in p_del_list]
 	# print del_dir_list
@@ -164,6 +169,7 @@ def del_sqlite_and_dir():
 	cur.execute(del_sql_books)
 	cur.execute(del_sql_data)
 	cur.execute(del_sql_comments)
+	cur.execute(del_sql_series)
 	conn.commit()
 
 	#del redis
@@ -214,18 +220,19 @@ def update_single_series_to_redis(book_id):
 		print sql
 		print series
 		if series is not None and len(series)>0:
+			print 'aaaa'
 			series_id = series['id']
-			sql = 'insert into books_series_link(book, series) values({0}, {1})'.format(book_id, series_id)
+			sql = 'insert or replace  into books_series_link(book, series) values({0}, {1})'.format(book_id, series_id)
 			cur.execute(sql)
-			conn.commit()
 		else:
+			print 'bbbb'
 			sql = 'insert or replace into series( name, sort) values( "{0}", "{1}")'.format(series_name.encode('utf-8'), series_name.encode('utf-8'))
 			cur.execute(sql)
 			series_id = cur.lastrowid
 
 			sql = 'insert or replace into books_series_link(book, series) values({0}, {1})'.format(book_id, series_id)
 			cur.execute(sql)
-			conn.commit()
+		conn.commit()
 		sql = 'select book from books_series_link where series=%s' % series_id
 		cur.execute(sql)
 		books = cur.fetchall()
@@ -234,9 +241,9 @@ def update_single_series_to_redis(book_id):
 		if len(book_ids)>0:
 			first_id = book_ids[0]
 			path = getBookPath(first_id)
-			data = {"id":book_id, "name":series_name,"path":path}
-			r.zadd(CALIBRE_ALL_SERIES_SET,  json.dumps(data), book_id)
-			r.hset(CALIBRE_SERIES_BOOKS_HASH, book_id, json.dumps(book_ids))
+			data = {"id":series_id, "name":series_name,"path":path}
+			r.zadd(CALIBRE_ALL_SERIES_SET,  json.dumps(data), series_id)
+			r.hset(CALIBRE_SERIES_BOOKS_HASH, series_id, json.dumps(book_ids))
 
 	except sqlite3.Error, e:
 		print "Error %s:" % e.args[0]

@@ -21,6 +21,8 @@ CALIBRE_SERIES_BOOKS_HASH  = cf.get("key", "CALIBRE_SERIES_BOOKS_HASH")
 
 BOOK_LIBRARY  = cf.get("path", "BOOK_LIBRARY")
 
+data_save_repository = cf.get("path", "data_save_repository")
+
 #///
 #CALIBRE_ALL_BOOKS_SET  = 'calibre_all_books_sort_set'
 #CALIBRE_ALL_BOOKS_HASH = 'calibre_all_books_hash'
@@ -34,6 +36,26 @@ es = esclient.ESClient("http://localhost:9200/")
 conn = sqlite3.connect(repository)
 conn.row_factory = sqlite3.Row
 cur = conn.cursor()
+
+def getDataSaveBookidClickDict():
+	if path.exists(data_save_repository):
+		try:
+			conn = sqlite3.connect(data_save_repository)
+			conn.row_factory = sqlite3.Row
+			cur = conn.cursor()
+			sql = 'select * from calibre_id_click'
+			cur.execute(sql)
+			rows = cur.fetchall()
+
+			id_click_dict = {}
+			for row in rows:
+				id_click_dict[row['id']] = row['click']
+			return id_click_dict
+		except sqlite3.Error, e:
+			print "Error %s:" % e.args[0]
+			return {}
+	else:
+		return {}
 
 
 def getBookPath(id):
@@ -50,12 +72,15 @@ if path.exists(repository):
 	rows = cur.fetchall()
 	r.flushdb()
 	es.delete_index("readream")
+	id_click_dict = getDataSaveBookidClickDict()
 	for row in rows:
 		p = BOOK_LIBRARY + "/" + row['path'] + '/cover_128_190.jpg';
 		if path.exists(p):
+			click = id_click_dict[row['id']] if id_click_dict.has_key(row['id']) else 0
 			r.hset(CALIBRE_ALL_BOOKS_HASH, row['id'], json.dumps(dict(row)))
-			r.zadd(CALIBRE_ALL_BOOKS_SET,  json.dumps(dict(row)), row['id'])
-			r.hset(CALIBRE_EPUB_PATH_HASH, row['id'], row['path'])
+			#r.zadd(CALIBRE_ALL_BOOKS_SET,  json.dumps(dict(row)), row['id'])
+			r.zadd(CALIBRE_ALL_BOOKS_SET,   row['id'], click)
+			#r.hset(CALIBRE_EPUB_PATH_HASH, row['id'], row['path'])
 
 			data = dict(row)
 			book_id = row['id']
