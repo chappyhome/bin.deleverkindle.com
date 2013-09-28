@@ -66,8 +66,8 @@ def getBookPath(id):
 	return "cover/" + row['path'] + "/cover_128_190.jpg" if row else "assets/images/cover_128_190.jpg"
 
 if path.exists(repository):
-	sql = 'select books.id,title,timestamp,pubdate, isbn ,path,uuid, has_cover, text as desc,\
-		      author_sort as author from books left join comments on books.id = comments.book'
+	sql = 'select books.id,data.name,data.format,title,timestamp,pubdate, isbn ,path,uuid, has_cover, text as desc,\
+		      author_sort as author from (books left join data on books.id = data.book) left join comments on books.id = comments.book'
 	cur.execute(sql)
 	rows = cur.fetchall()
 	r.flushdb()
