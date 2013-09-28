@@ -1,0 +1,98 @@
+STATUS | wrapper  | 2013/09/02 10:55:43 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/09/02 10:55:43 | Java Service Wrapper Community Edition 32-bit 3.5.14
+STATUS | wrapper  | 2013/09/02 10:55:43 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/09/02 10:55:43 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/09/02 10:55:43 | 
+STATUS | wrapper  | 2013/09/02 10:55:44 | Launching a JVM...
+INFO   | jvm 1    | 2013/09/02 10:55:44 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/09/02 10:55:44 | [2013-09-02 10:55:44,582][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+STATUS | wrapper  | 2013/09/02 10:55:52 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/09/02 10:55:53 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/09/02 10:57:22 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/09/02 10:57:22 | Java Service Wrapper Community Edition 32-bit 3.5.14
+STATUS | wrapper  | 2013/09/02 10:57:22 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/09/02 10:57:22 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/09/02 10:57:22 | 
+STATUS | wrapper  | 2013/09/02 10:57:23 | Launching a JVM...
+INFO   | jvm 1    | 2013/09/02 10:57:23 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/09/02 10:57:23 | [2013-09-02 10:57:23,778][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+STATUS | wrapper  | 2013/09/02 10:57:34 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/09/02 10:57:35 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/09/02 10:57:40 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/09/02 10:57:40 | Java Service Wrapper Community Edition 32-bit 3.5.14
+STATUS | wrapper  | 2013/09/02 10:57:40 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/09/02 10:57:40 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/09/02 10:57:40 | 
+STATUS | wrapper  | 2013/09/02 10:57:40 | Launching a JVM...
+INFO   | jvm 1    | 2013/09/02 10:57:40 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/09/02 10:57:41 | [2013-09-02 10:57:41,136][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+STATUS | wrapper  | 2013/09/02 11:18:59 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/09/02 11:19:00 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/09/02 11:19:01 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/09/02 11:19:01 | Java Service Wrapper Community Edition 32-bit 3.5.14
+STATUS | wrapper  | 2013/09/02 11:19:01 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/09/02 11:19:01 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/09/02 11:19:01 | 
+STATUS | wrapper  | 2013/09/02 11:19:01 | Launching a JVM...
+INFO   | jvm 1    | 2013/09/02 11:19:01 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/09/02 11:19:02 | [2013-09-02 11:19:02,319][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+STATUS | wrapper  | 2013/09/02 14:12:11 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/09/02 14:12:12 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/09/02 14:17:32 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/09/02 14:17:32 | Java Service Wrapper Community Edition 32-bit 3.5.14
+STATUS | wrapper  | 2013/09/02 14:17:32 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/09/02 14:17:32 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/09/02 14:17:32 | 
+STATUS | wrapper  | 2013/09/02 14:17:33 | Launching a JVM...
+INFO   | jvm 1    | 2013/09/02 14:17:33 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/09/02 14:17:33 | [2013-09-02 14:17:33,797][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+STATUS | wrapper  | 2013/09/08 17:10:49 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/09/08 17:10:53 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/09/08 17:10:53 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/09/08 17:10:53 | Java Service Wrapper Community Edition 32-bit 3.5.14
+STATUS | wrapper  | 2013/09/08 17:10:53 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/09/08 17:10:53 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/09/08 17:10:53 | 
+STATUS | wrapper  | 2013/09/08 17:10:54 | Launching a JVM...
+INFO   | jvm 1    | 2013/09/08 17:10:55 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/09/08 17:10:57 | [2013-09-08 17:10:57,708][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+STATUS | wrapper  | 2013/09/09 09:40:45 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/09/09 09:40:46 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/09/09 09:40:47 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/09/09 09:40:47 | Java Service Wrapper Community Edition 32-bit 3.5.14
+STATUS | wrapper  | 2013/09/09 09:40:47 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/09/09 09:40:47 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/09/09 09:40:47 | 
+STATUS | wrapper  | 2013/09/09 09:40:47 | Launching a JVM...
+INFO   | jvm 1    | 2013/09/09 09:40:48 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/09/09 09:40:50 | [2013-09-09 09:40:50,018][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+STATUS | wrapper  | 2013/09/09 17:29:37 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/09/09 17:29:39 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/09/09 21:53:19 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/09/09 21:53:19 | Java Service Wrapper Community Edition 32-bit 3.5.14
+STATUS | wrapper  | 2013/09/09 21:53:19 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/09/09 21:53:19 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/09/09 21:53:19 | 
+STATUS | wrapper  | 2013/09/09 21:53:20 | Launching a JVM...
+INFO   | jvm 1    | 2013/09/09 21:53:21 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/09/09 21:53:23 | [2013-09-09 21:53:23,496][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+STATUS | wrapper  | 2013/09/10 15:54:51 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/09/10 15:54:52 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/09/10 20:56:57 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/09/10 20:56:57 | Java Service Wrapper Community Edition 32-bit 3.5.14
+STATUS | wrapper  | 2013/09/10 20:56:57 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/09/10 20:56:57 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/09/10 20:56:57 | 
+STATUS | wrapper  | 2013/09/10 20:56:57 | Launching a JVM...
+INFO   | jvm 1    | 2013/09/10 20:56:58 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/09/10 20:57:00 | [2013-09-10 20:57:00,048][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+STATUS | wrapper  | 2013/09/11 12:29:00 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2013/09/11 12:29:01 | <-- Wrapper Stopped
+STATUS | wrapper  | 2013/09/11 14:06:18 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2013/09/11 14:06:18 | Java Service Wrapper Community Edition 32-bit 3.5.14
+STATUS | wrapper  | 2013/09/11 14:06:18 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/09/11 14:06:18 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/09/11 14:06:18 | 
+STATUS | wrapper  | 2013/09/11 14:06:18 | Launching a JVM...
+INFO   | jvm 1    | 2013/09/11 14:06:18 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/09/11 14:06:22 | [2013-09-11 14:06:22,208][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line

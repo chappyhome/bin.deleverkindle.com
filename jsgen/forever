@@ -1,0 +1,39 @@
+#!/bin/bash
+# chkconfig: 345 88 08
+# description: Forever for Node.js
+
+DEAMON=/data/httpd/htdocs/app.js
+LOG=/root/.forever/forever.log
+PID=/root/.forever/pids/forever.pid
+DEAMONPATH=/data/httpd/htdocs/
+
+export PATH=$PATH:/usr/local/bin
+export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
+
+node=node
+forever=forever
+
+case "$1" in
+    start)
+        $forever start -wal $LOG -m 0 --watchDirectory $DEAMONPATH --pidFile $PID -w -a $DEAMON
+        ;;
+    stop)
+        $forever stop --pidFile $PID $DEAMON
+        ;;
+    stopall)
+        $forever stopall --pidFile $PID
+        ;;
+    restartall)
+        $forever restartall --pidFile $PID
+        ;;
+    reload|restart)
+        $forever restart -wal $LOG -m 0 --watchDirectory $DEAMONPATH --pidFile $PID -w -a $DEAMON
+        ;;
+    list)
+        $forever list
+        ;;
+    *)
+        echo "Usage: /etc.init.d/node {start|stop|restart|reload|stopall|restartall|list}"
+        exit 1
+        ;;
+esac

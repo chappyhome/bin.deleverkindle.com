@@ -1,0 +1,37 @@
+[2013-09-01 21:31:39,230][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2013-09-01 21:31:39,299][INFO ][node                     ] [Phyla-Vell] version[0.90.3], pid[31954], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-09-01 21:31:39,300][INFO ][node                     ] [Phyla-Vell] initializing ...
+[2013-09-01 21:31:39,304][INFO ][plugins                  ] [Phyla-Vell] loaded [], sites []
+[2013-09-01 21:31:41,018][INFO ][node                     ] [Phyla-Vell] initialized
+[2013-09-01 21:31:41,019][INFO ][node                     ] [Phyla-Vell] starting ...
+[2013-09-01 21:31:41,076][INFO ][transport                ] [Phyla-Vell] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.30.139.212:9300]}
+[2013-09-01 21:31:44,144][INFO ][cluster.service          ] [Phyla-Vell] new_master [Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]], reason: zen-disco-join (elected_as_master)
+[2013-09-01 21:31:44,182][INFO ][discovery                ] [Phyla-Vell] elasticsearch/ZH9F0LvjRkyvNaiA7yHVuA
+[2013-09-01 21:31:44,201][INFO ][http                     ] [Phyla-Vell] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.30.139.212:9200]}
+[2013-09-01 21:31:44,201][INFO ][node                     ] [Phyla-Vell] started
+[2013-09-01 21:31:44,261][INFO ][gateway                  ] [Phyla-Vell] recovered [0] indices into cluster_state
+[2013-09-01 21:39:25,691][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2013-09-01 21:39:25,760][INFO ][node                     ] [Vibraxas] version[0.90.3], pid[32015], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-09-01 21:39:25,760][INFO ][node                     ] [Vibraxas] initializing ...
+[2013-09-01 21:39:25,765][INFO ][plugins                  ] [Vibraxas] loaded [], sites []
+[2013-09-01 21:39:27,501][INFO ][node                     ] [Vibraxas] initialized
+[2013-09-01 21:39:27,501][INFO ][node                     ] [Vibraxas] starting ...
+[2013-09-01 21:39:27,557][INFO ][transport                ] [Vibraxas] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/192.30.139.212:9301]}
+[2013-09-01 21:39:30,651][INFO ][cluster.service          ] [Phyla-Vell] added {[Vibraxas][MutVCnT_SJG3eJ-d5I6UQw][inet[/192.30.139.212:9301]],}, reason: zen-disco-receive(join from node[[Vibraxas][MutVCnT_SJG3eJ-d5I6UQw][inet[/192.30.139.212:9301]]])
+[2013-09-01 21:39:30,733][INFO ][cluster.service          ] [Vibraxas] detected_master [Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]], added {[Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]],}, reason: zen-disco-receive(from master [[Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]]])
+[2013-09-01 21:39:30,797][INFO ][discovery                ] [Vibraxas] elasticsearch/MutVCnT_SJG3eJ-d5I6UQw
+[2013-09-01 21:39:30,800][INFO ][http                     ] [Vibraxas] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/192.30.139.212:9201]}
+[2013-09-01 21:39:30,801][INFO ][node                     ] [Vibraxas] started
+[2013-09-01 21:48:37,999][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2013-09-01 21:48:38,065][INFO ][node                     ] [Donald & Deborah Ritter] version[0.90.3], pid[32096], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-09-01 21:48:38,065][INFO ][node                     ] [Donald & Deborah Ritter] initializing ...
+[2013-09-01 21:48:38,069][INFO ][plugins                  ] [Donald & Deborah Ritter] loaded [], sites []
+[2013-09-01 21:48:39,807][INFO ][node                     ] [Donald & Deborah Ritter] initialized
+[2013-09-01 21:48:39,807][INFO ][node                     ] [Donald & Deborah Ritter] starting ...
+[2013-09-01 21:48:39,863][INFO ][transport                ] [Donald & Deborah Ritter] bound_address {inet[/192.30.139.212:9302]}, publish_address {inet[/192.30.139.212:9302]}
+[2013-09-01 21:48:42,954][INFO ][cluster.service          ] [Phyla-Vell] added {[Donald & Deborah Ritter][AQi4xhXFSAq5hlXGVRi9nQ][inet[/192.30.139.212:9302]],}, reason: zen-disco-receive(join from node[[Donald & Deborah Ritter][AQi4xhXFSAq5hlXGVRi9nQ][inet[/192.30.139.212:9302]]])
+[2013-09-01 21:48:43,248][INFO ][cluster.service          ] [Vibraxas] added {[Donald & Deborah Ritter][AQi4xhXFSAq5hlXGVRi9nQ][inet[/192.30.139.212:9302]],}, reason: zen-disco-receive(from master [[Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]]])
+[2013-09-01 21:48:43,253][INFO ][cluster.service          ] [Donald & Deborah Ritter] detected_master [Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]], added {[Vibraxas][MutVCnT_SJG3eJ-d5I6UQw][inet[/192.30.139.212:9301]],[Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]],}, reason: zen-disco-receive(from master [[Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]]])
+[2013-09-01 21:48:43,305][INFO ][discovery                ] [Donald & Deborah Ritter] elasticsearch/AQi4xhXFSAq5hlXGVRi9nQ
+[2013-09-01 21:48:43,308][INFO ][http                     ] [Donald & Deborah Ritter] bound_address {inet[/192.30.139.212:9202]}, publish_address {inet[/192.30.139.212:9202]}
+[2013-09-01 21:48:43,308][INFO ][node                     ] [Donald & Deborah Ritter] started

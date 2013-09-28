@@ -1,0 +1,28 @@
+[2013-09-11 12:29:01,382][INFO ][node                     ] [Storm, Franklin] stopping ...
+[2013-09-11 12:29:01,444][INFO ][node                     ] [Storm, Franklin] stopped
+[2013-09-11 12:29:01,444][INFO ][node                     ] [Storm, Franklin] closing ...
+[2013-09-11 12:29:01,449][INFO ][node                     ] [Storm, Franklin] closed
+[2013-09-11 14:06:22,208][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2013-09-11 14:06:22,299][INFO ][node                     ] [Crimson Craig] version[0.90.3], pid[20114], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-09-11 14:06:22,299][INFO ][node                     ] [Crimson Craig] initializing ...
+[2013-09-11 14:06:22,310][INFO ][plugins                  ] [Crimson Craig] loaded [analysis-mmseg, analysis-ik], sites []
+[2013-09-11 14:06:24,549][INFO ][node                     ] [Crimson Craig] initialized
+[2013-09-11 14:06:24,550][INFO ][node                     ] [Crimson Craig] starting ...
+[2013-09-11 14:06:24,616][INFO ][transport                ] [Crimson Craig] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.30.139.212:9300]}
+[2013-09-11 14:06:27,744][INFO ][cluster.service          ] [Crimson Craig] new_master [Crimson Craig][YyebP5YDSJGoxetDgTqzDw][inet[/192.30.139.212:9300]], reason: zen-disco-join (elected_as_master)
+[2013-09-11 14:06:27,777][INFO ][discovery                ] [Crimson Craig] elasticsearch/YyebP5YDSJGoxetDgTqzDw
+[2013-09-11 14:06:27,794][INFO ][http                     ] [Crimson Craig] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.30.139.212:9200]}
+[2013-09-11 14:06:27,794][INFO ][node                     ] [Crimson Craig] started
+[2013-09-11 14:06:27,997][INFO ][index.analysis           ] [Crimson Craig] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-11 14:06:28,018][INFO ][com.chenlb.mmseg4j.Dictionary] chars loaded time=20ms, line=12638, on file=/opt/bin/elasticsearch/config/mmseg/chars.dic
+[2013-09-11 14:06:28,360][INFO ][com.chenlb.mmseg4j.Dictionary] words loaded time=341ms, line=157202, on file=/opt/bin/elasticsearch/config/mmseg/words.dic
+[2013-09-11 14:06:28,361][INFO ][com.chenlb.mmseg4j.Dictionary] words loaded time=1ms, line=1, on file=/opt/bin/elasticsearch/config/mmseg/words-my.dic
+[2013-09-11 14:06:28,361][INFO ][com.chenlb.mmseg4j.Dictionary] load all dic use time=363ms
+[2013-09-11 14:06:28,362][INFO ][com.chenlb.mmseg4j.Dictionary] unit loaded time=1ms, line=22, on file=/opt/bin/elasticsearch/config/mmseg/units.dic
+[2013-09-11 14:06:28,364][INFO ][index.analysis           ] [Crimson Craig] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-11 14:06:28,366][INFO ][index.analysis           ] [Crimson Craig] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-11 14:06:28,642][INFO ][ik-analyzer              ] [Dict Loading] ik/IKAnalyzer.cfg.xml
+[2013-09-11 14:06:29,300][INFO ][ik-analyzer              ] ???????ik/custom/mydict.dic
+[2013-09-11 14:06:29,319][INFO ][ik-analyzer              ] ???????ik/custom/sougou.dict
+[2013-09-11 14:06:30,399][INFO ][index.analysis           ] [Crimson Craig] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-11 14:06:30,841][INFO ][gateway                  ] [Crimson Craig] recovered [1] indices into cluster_state

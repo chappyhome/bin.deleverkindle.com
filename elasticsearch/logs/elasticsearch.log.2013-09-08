@@ -1,0 +1,28 @@
+[2013-09-08 17:10:50,975][INFO ][node                     ] [Shola Inkosi] stopping ...
+[2013-09-08 17:10:52,819][INFO ][node                     ] [Shola Inkosi] stopped
+[2013-09-08 17:10:52,820][INFO ][node                     ] [Shola Inkosi] closing ...
+[2013-09-08 17:10:53,082][INFO ][node                     ] [Shola Inkosi] closed
+[2013-09-08 17:10:57,708][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2013-09-08 17:10:57,783][INFO ][node                     ] [Jennifer Kale] version[0.90.3], pid[25149], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-09-08 17:10:57,783][INFO ][node                     ] [Jennifer Kale] initializing ...
+[2013-09-08 17:10:57,813][INFO ][plugins                  ] [Jennifer Kale] loaded [analysis-mmseg, analysis-ik], sites []
+[2013-09-08 17:10:59,881][INFO ][node                     ] [Jennifer Kale] initialized
+[2013-09-08 17:10:59,881][INFO ][node                     ] [Jennifer Kale] starting ...
+[2013-09-08 17:11:00,013][INFO ][transport                ] [Jennifer Kale] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.30.139.212:9300]}
+[2013-09-08 17:11:03,147][INFO ][cluster.service          ] [Jennifer Kale] new_master [Jennifer Kale][bJLJaAQOSnGV2qGhTCzIjQ][inet[/192.30.139.212:9300]], reason: zen-disco-join (elected_as_master)
+[2013-09-08 17:11:03,172][INFO ][discovery                ] [Jennifer Kale] elasticsearch/bJLJaAQOSnGV2qGhTCzIjQ
+[2013-09-08 17:11:03,188][INFO ][http                     ] [Jennifer Kale] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.30.139.212:9200]}
+[2013-09-08 17:11:03,188][INFO ][node                     ] [Jennifer Kale] started
+[2013-09-08 17:11:03,343][INFO ][index.analysis           ] [Jennifer Kale] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-08 17:11:03,361][INFO ][com.chenlb.mmseg4j.Dictionary] chars loaded time=17ms, line=12638, on file=/opt/bin/elasticsearch/config/mmseg/chars.dic
+[2013-09-08 17:11:03,718][INFO ][com.chenlb.mmseg4j.Dictionary] words loaded time=353ms, line=157202, on file=/opt/bin/elasticsearch/config/mmseg/words.dic
+[2013-09-08 17:11:03,719][INFO ][com.chenlb.mmseg4j.Dictionary] words loaded time=1ms, line=1, on file=/opt/bin/elasticsearch/config/mmseg/words-my.dic
+[2013-09-08 17:11:03,719][INFO ][com.chenlb.mmseg4j.Dictionary] load all dic use time=375ms
+[2013-09-08 17:11:03,720][INFO ][com.chenlb.mmseg4j.Dictionary] unit loaded time=0ms, line=22, on file=/opt/bin/elasticsearch/config/mmseg/units.dic
+[2013-09-08 17:11:03,722][INFO ][index.analysis           ] [Jennifer Kale] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-08 17:11:03,723][INFO ][index.analysis           ] [Jennifer Kale] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-08 17:11:03,881][INFO ][ik-analyzer              ] [Dict Loading] ik/IKAnalyzer.cfg.xml
+[2013-09-08 17:11:04,368][INFO ][ik-analyzer              ] ???????ik/custom/mydict.dic
+[2013-09-08 17:11:04,370][INFO ][ik-analyzer              ] ???????ik/custom/sougou.dict
+[2013-09-08 17:11:05,584][INFO ][index.analysis           ] [Jennifer Kale] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-08 17:11:05,978][INFO ][gateway                  ] [Jennifer Kale] recovered [1] indices into cluster_state

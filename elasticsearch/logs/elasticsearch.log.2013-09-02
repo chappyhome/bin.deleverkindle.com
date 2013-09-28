@@ -1,0 +1,905 @@
+[2013-09-02 10:55:44,582][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2013-09-02 10:55:44,635][INFO ][node                     ] [Ardina] version[0.90.3], pid[568], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-09-02 10:55:44,635][INFO ][node                     ] [Ardina] initializing ...
+[2013-09-02 10:55:44,641][INFO ][plugins                  ] [Ardina] loaded [], sites []
+[2013-09-02 10:55:46,247][INFO ][node                     ] [Ardina] initialized
+[2013-09-02 10:55:46,247][INFO ][node                     ] [Ardina] starting ...
+[2013-09-02 10:55:46,304][INFO ][transport                ] [Ardina] bound_address {inet[/0:0:0:0:0:0:0:0:9303]}, publish_address {inet[/192.30.139.212:9303]}
+[2013-09-02 10:55:49,378][INFO ][cluster.service          ] [Ardina] detected_master [Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]], added {[Donald & Deborah Ritter][AQi4xhXFSAq5hlXGVRi9nQ][inet[/192.30.139.212:9302]],[Vibraxas][MutVCnT_SJG3eJ-d5I6UQw][inet[/192.30.139.212:9301]],[Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]],}, reason: zen-disco-receive(from master [[Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]]])
+[2013-09-02 10:55:49,467][INFO ][discovery                ] [Ardina] elasticsearch/Z6pHbtMoRpuAzWGV8ZCfXw
+[2013-09-02 10:55:49,519][INFO ][http                     ] [Ardina] bound_address {inet[/0:0:0:0:0:0:0:0:9203]}, publish_address {inet[/192.30.139.212:9203]}
+[2013-09-02 10:55:49,519][INFO ][node                     ] [Ardina] started
+[2013-09-02 10:55:52,964][INFO ][node                     ] [Ardina] stopping ...
+[2013-09-02 10:55:53,007][INFO ][node                     ] [Ardina] stopped
+[2013-09-02 10:55:53,007][INFO ][node                     ] [Ardina] closing ...
+[2013-09-02 10:55:53,011][INFO ][node                     ] [Ardina] closed
+[2013-09-02 10:57:23,778][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2013-09-02 10:57:23,841][INFO ][node                     ] [Astra] version[0.90.3], pid[890], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-09-02 10:57:23,842][INFO ][node                     ] [Astra] initializing ...
+[2013-09-02 10:57:23,848][INFO ][plugins                  ] [Astra] loaded [], sites []
+[2013-09-02 10:57:25,573][INFO ][node                     ] [Astra] initialized
+[2013-09-02 10:57:25,573][INFO ][node                     ] [Astra] starting ...
+[2013-09-02 10:57:25,627][INFO ][transport                ] [Astra] bound_address {inet[/0:0:0:0:0:0:0:0:9303]}, publish_address {inet[/192.30.139.212:9303]}
+[2013-09-02 10:57:28,724][INFO ][cluster.service          ] [Astra] detected_master [Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]], added {[Donald & Deborah Ritter][AQi4xhXFSAq5hlXGVRi9nQ][inet[/192.30.139.212:9302]],[Vibraxas][MutVCnT_SJG3eJ-d5I6UQw][inet[/192.30.139.212:9301]],[Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]],}, reason: zen-disco-receive(from master [[Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]]])
+[2013-09-02 10:57:28,802][INFO ][discovery                ] [Astra] elasticsearch/cMQadg3uQhKAaV-iqDVMDg
+[2013-09-02 10:57:28,805][INFO ][http                     ] [Astra] bound_address {inet[/0:0:0:0:0:0:0:0:9203]}, publish_address {inet[/192.30.139.212:9203]}
+[2013-09-02 10:57:28,805][INFO ][node                     ] [Astra] started
+[2013-09-02 10:57:35,669][INFO ][node                     ] [Astra] stopping ...
+[2013-09-02 10:57:35,702][INFO ][node                     ] [Astra] stopped
+[2013-09-02 10:57:35,702][INFO ][node                     ] [Astra] closing ...
+[2013-09-02 10:57:35,706][INFO ][node                     ] [Astra] closed
+[2013-09-02 10:57:41,136][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2013-09-02 10:57:41,189][INFO ][node                     ] [Interloper] version[0.90.3], pid[1138], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-09-02 10:57:41,189][INFO ][node                     ] [Interloper] initializing ...
+[2013-09-02 10:57:41,195][INFO ][plugins                  ] [Interloper] loaded [], sites []
+[2013-09-02 10:57:42,788][INFO ][node                     ] [Interloper] initialized
+[2013-09-02 10:57:42,788][INFO ][node                     ] [Interloper] starting ...
+[2013-09-02 10:57:42,844][INFO ][transport                ] [Interloper] bound_address {inet[/0:0:0:0:0:0:0:0:9303]}, publish_address {inet[/192.30.139.212:9303]}
+[2013-09-02 10:57:45,952][INFO ][cluster.service          ] [Interloper] detected_master [Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]], added {[Donald & Deborah Ritter][AQi4xhXFSAq5hlXGVRi9nQ][inet[/192.30.139.212:9302]],[Vibraxas][MutVCnT_SJG3eJ-d5I6UQw][inet[/192.30.139.212:9301]],[Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]],}, reason: zen-disco-receive(from master [[Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]]])
+[2013-09-02 10:57:46,089][INFO ][discovery                ] [Interloper] elasticsearch/duQUJ55CTEmqMOnG0krJag
+[2013-09-02 10:57:46,092][INFO ][http                     ] [Interloper] bound_address {inet[/0:0:0:0:0:0:0:0:9203]}, publish_address {inet[/192.30.139.212:9203]}
+[2013-09-02 10:57:46,092][INFO ][node                     ] [Interloper] started
+[2013-09-02 11:19:00,218][INFO ][node                     ] [Interloper] stopping ...
+[2013-09-02 11:19:00,266][INFO ][node                     ] [Interloper] stopped
+[2013-09-02 11:19:00,266][INFO ][node                     ] [Interloper] closing ...
+[2013-09-02 11:19:00,278][INFO ][node                     ] [Interloper] closed
+[2013-09-02 11:19:02,319][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2013-09-02 11:19:02,373][INFO ][node                     ] [Dionysus] version[0.90.3], pid[1416], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-09-02 11:19:02,374][INFO ][node                     ] [Dionysus] initializing ...
+[2013-09-02 11:19:02,383][INFO ][plugins                  ] [Dionysus] loaded [analysis-mmseg, analysis-ik], sites []
+[2013-09-02 11:19:03,959][INFO ][node                     ] [Dionysus] initialized
+[2013-09-02 11:19:03,959][INFO ][node                     ] [Dionysus] starting ...
+[2013-09-02 11:19:04,013][INFO ][transport                ] [Dionysus] bound_address {inet[/0:0:0:0:0:0:0:0:9303]}, publish_address {inet[/192.30.139.212:9303]}
+[2013-09-02 11:19:07,124][INFO ][cluster.service          ] [Dionysus] detected_master [Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]], added {[Donald & Deborah Ritter][AQi4xhXFSAq5hlXGVRi9nQ][inet[/192.30.139.212:9302]],[Vibraxas][MutVCnT_SJG3eJ-d5I6UQw][inet[/192.30.139.212:9301]],[Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]],}, reason: zen-disco-receive(from master [[Phyla-Vell][ZH9F0LvjRkyvNaiA7yHVuA][inet[/192.30.139.212:9300]]])
+[2013-09-02 11:19:07,180][INFO ][discovery                ] [Dionysus] elasticsearch/YiRowc71TMan43SJfS8ceg
+[2013-09-02 11:19:07,183][INFO ][http                     ] [Dionysus] bound_address {inet[/0:0:0:0:0:0:0:0:9203]}, publish_address {inet[/192.30.139.212:9203]}
+[2013-09-02 11:19:07,183][INFO ][node                     ] [Dionysus] started
+[2013-09-02 14:12:12,654][INFO ][node                     ] [Dionysus] stopping ...
+[2013-09-02 14:12:12,688][INFO ][node                     ] [Dionysus] stopped
+[2013-09-02 14:12:12,688][INFO ][node                     ] [Dionysus] closing ...
+[2013-09-02 14:12:12,692][INFO ][node                     ] [Dionysus] closed
+[2013-09-02 14:17:33,797][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2013-09-02 14:17:33,853][INFO ][node                     ] [Shola Inkosi] version[0.90.3], pid[1894], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-09-02 14:17:33,853][INFO ][node                     ] [Shola Inkosi] initializing ...
+[2013-09-02 14:17:33,863][INFO ][plugins                  ] [Shola Inkosi] loaded [analysis-mmseg, analysis-ik], sites []
+[2013-09-02 14:17:35,511][INFO ][node                     ] [Shola Inkosi] initialized
+[2013-09-02 14:17:35,511][INFO ][node                     ] [Shola Inkosi] starting ...
+[2013-09-02 14:17:35,564][INFO ][transport                ] [Shola Inkosi] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.30.139.212:9300]}
+[2013-09-02 14:17:38,591][INFO ][cluster.service          ] [Shola Inkosi] new_master [Shola Inkosi][iwRMf9UzRuaiftKMacu35A][inet[/192.30.139.212:9300]], reason: zen-disco-join (elected_as_master)
+[2013-09-02 14:17:38,677][INFO ][discovery                ] [Shola Inkosi] elasticsearch/iwRMf9UzRuaiftKMacu35A
+[2013-09-02 14:17:38,741][INFO ][http                     ] [Shola Inkosi] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.30.139.212:9200]}
+[2013-09-02 14:17:38,742][INFO ][node                     ] [Shola Inkosi] started
+[2013-09-02 14:17:38,784][INFO ][gateway                  ] [Shola Inkosi] recovered [0] indices into cluster_state
+[2013-09-02 14:30:24,147][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:30:24,165][INFO ][com.chenlb.mmseg4j.Dictionary] chars loaded time=17ms, line=12638, on file=/opt/bin/elasticsearch/config/mmseg/chars.dic
+[2013-09-02 14:30:24,453][INFO ][com.chenlb.mmseg4j.Dictionary] words loaded time=287ms, line=157202, on file=/opt/bin/elasticsearch/config/mmseg/words.dic
+[2013-09-02 14:30:24,453][INFO ][com.chenlb.mmseg4j.Dictionary] words loaded time=0ms, line=1, on file=/opt/bin/elasticsearch/config/mmseg/words-my.dic
+[2013-09-02 14:30:24,453][INFO ][com.chenlb.mmseg4j.Dictionary] load all dic use time=305ms
+[2013-09-02 14:30:24,454][INFO ][com.chenlb.mmseg4j.Dictionary] unit loaded time=1ms, line=22, on file=/opt/bin/elasticsearch/config/mmseg/units.dic
+[2013-09-02 14:30:24,456][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:30:24,457][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:30:24,487][INFO ][ik-analyzer              ] [Dict Loading] ik/IKAnalyzer.cfg.xml
+[2013-09-02 14:30:24,898][INFO ][ik-analyzer              ] ???????ik/custom/mydict.dic
+[2013-09-02 14:30:24,899][INFO ][ik-analyzer              ] ???????ik/custom/sougou.dict
+[2013-09-02 14:30:25,769][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:30:25,831][INFO ][cluster.metadata         ] [Shola Inkosi] [readream] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2013-09-02 14:30:25,873][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:30:25,874][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:30:25,874][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:30:25,875][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:30:26,402][DEBUG][action.index             ] [Shola Inkosi] [readream][2], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [index {[readream][books][XI7cD1g5SaiQAO31K-EAyA], source[{
+  "mappings": {
+    "readream": {
+      "books": {
+        "properties": {
+          "id": {
+              "type": "long"
+          },
+          "title": {
+              "type": "string",
+              "analyzer": "ik",
+          },
+          "timestamp": {
+              "type": "string"
+          },
+          "pubdate": {
+              "type": "string"
+          },
+          "isbn": {
+              "type": "string"
+          },
+          "path": {
+              "type": "string"
+          },
+          "uuid": {
+              "type": "string"
+          },
+          "has_cover": {
+              "type": "string"
+          },
+          "desc": {
+              "type": "string",
+              "analyzer": "ik"
+          },
+          "author": {
+              "type": "string",
+              "analyzer": "ik"
+          }
+        }
+      }
+    }
+  }
+}]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:554)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:451)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareCreate(InternalIndexShard.java:308)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:211)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:521)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:419)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@10aae2f; line: 12, column: 12]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1369)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnusualFieldName(UTF8StreamJsonParser.java:1725)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseFieldName(UTF8StreamJsonParser.java:1406)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:668)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:469)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.serializeObject(ObjectMapper.java:557)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:457)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.serializeObject(ObjectMapper.java:557)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:457)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.serializeObject(ObjectMapper.java:557)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:457)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.serializeObject(ObjectMapper.java:557)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:457)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.serializeObject(ObjectMapper.java:557)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:457)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:507)
+	... 8 more
+[2013-09-02 14:30:56,623][DEBUG][action.index             ] [Shola Inkosi] [readream][3], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [index {[readream][books][vomDQk9wSwyEhXsFxgdDuA], source[{
+  "mappings": {
+      "books": {
+        "properties": {
+          "id": {
+              "type": "long"
+          },
+          "title": {
+              "type": "string",
+              "analyzer": "ik",
+          },
+          "timestamp": {
+              "type": "string"
+          },
+          "pubdate": {
+              "type": "string"
+          },
+          "isbn": {
+              "type": "string"
+          },
+          "path": {
+              "type": "string"
+          },
+          "uuid": {
+              "type": "string"
+          },
+          "has_cover": {
+              "type": "string"
+          },
+          "desc": {
+              "type": "string",
+              "analyzer": "ik"
+          },
+          "author": {
+              "type": "string",
+              "analyzer": "ik"
+          }
+        }
+      }
+    }
+}]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:554)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:451)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareCreate(InternalIndexShard.java:308)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:211)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:521)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:419)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting either valid name character (for unquoted name) or double-quote (for quoted) to start field name
+ at [Source: [B@21906f; line: 11, column: 12]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1369)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnusualFieldName(UTF8StreamJsonParser.java:1725)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._parseFieldName(UTF8StreamJsonParser.java:1406)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:668)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:469)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.serializeObject(ObjectMapper.java:557)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:457)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.serializeObject(ObjectMapper.java:557)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:457)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.serializeObject(ObjectMapper.java:557)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:457)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.serializeObject(ObjectMapper.java:515)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:457)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:507)
+	... 8 more
+[2013-09-02 14:31:52,700][INFO ][cluster.metadata         ] [Shola Inkosi] [readream] deleting index
+[2013-09-02 14:31:57,438][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:31:57,439][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:31:57,440][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:31:57,441][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:31:57,455][INFO ][cluster.metadata         ] [Shola Inkosi] [readream] creating index, cause [api], shards [5]/[1], mappings [books]
+[2013-09-02 14:31:57,485][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:31:57,486][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:31:57,487][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 14:31:57,488][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:33:06,197][INFO ][cluster.metadata         ] [Shola Inkosi] [readream] deleting index
+[2013-09-02 15:33:30,507][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:33:30,508][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:33:30,509][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:33:30,509][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:33:30,517][INFO ][cluster.metadata         ] [Shola Inkosi] [readream] creating index, cause [api], shards [5]/[1], mappings [books]
+[2013-09-02 15:33:30,537][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:33:30,538][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:33:30,539][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:33:30,540][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:57:29,522][INFO ][cluster.metadata         ] [Shola Inkosi] [readream] deleting index
+[2013-09-02 15:57:58,290][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:57:58,291][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:57:58,291][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:57:58,292][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:57:58,301][INFO ][cluster.metadata         ] [Shola Inkosi] [readream] creating index, cause [api], shards [5]/[1], mappings [books]
+[2013-09-02 15:57:58,329][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:57:58,329][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:57:58,330][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 15:57:58,331][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 16:00:52,583][INFO ][cluster.metadata         ] [Shola Inkosi] [readream] deleting index
+[2013-09-02 16:01:01,941][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 16:01:01,942][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 16:01:01,943][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 16:01:01,943][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 16:01:01,953][INFO ][cluster.metadata         ] [Shola Inkosi] [readream] creating index, cause [api], shards [5]/[1], mappings [books]
+[2013-09-02 16:01:01,972][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 16:01:01,973][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 16:01:01,973][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 16:01:01,974][INFO ][index.analysis           ] [Shola Inkosi] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-02 16:22:46,260][DEBUG][action.search.type       ] [Shola Inkosi] [readream][0], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1e3ea1e]
+org.elasticsearch.search.SearchParseException: [readream][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"??"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][0]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:22:46,261][DEBUG][action.search.type       ] [Shola Inkosi] [readream][4], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1e3ea1e]
+org.elasticsearch.search.SearchParseException: [readream][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"??"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][4]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:22:46,262][DEBUG][action.search.type       ] [Shola Inkosi] [readream][1], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1e3ea1e]
+org.elasticsearch.search.SearchParseException: [readream][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"??"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][1]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:22:46,263][DEBUG][action.search.type       ] [Shola Inkosi] [readream][2], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1e3ea1e]
+org.elasticsearch.search.SearchParseException: [readream][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"??"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][2]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:22:46,261][DEBUG][action.search.type       ] [Shola Inkosi] [readream][3], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1e3ea1e]
+org.elasticsearch.search.SearchParseException: [readream][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"??"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][3]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:24:04,308][DEBUG][action.search.type       ] [Shola Inkosi] [readream][0], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@13f2f11]
+org.elasticsearch.search.SearchParseException: [readream][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][0]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:24:04,309][DEBUG][action.search.type       ] [Shola Inkosi] [readream][3], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@13f2f11]
+org.elasticsearch.search.SearchParseException: [readream][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][3]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:24:04,310][DEBUG][action.search.type       ] [Shola Inkosi] [readream][4], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@13f2f11]
+org.elasticsearch.search.SearchParseException: [readream][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][4]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:24:04,310][DEBUG][action.search.type       ] [Shola Inkosi] [readream][1], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@13f2f11]
+org.elasticsearch.search.SearchParseException: [readream][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][1]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:24:04,310][DEBUG][action.search.type       ] [Shola Inkosi] [readream][2], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@13f2f11]
+org.elasticsearch.search.SearchParseException: [readream][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][2]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:26:38,545][DEBUG][action.search.type       ] [Shola Inkosi] [readream][0], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1eb0eb5]
+org.elasticsearch.search.SearchParseException: [readream][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][0]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:26:38,546][DEBUG][action.search.type       ] [Shola Inkosi] [readream][3], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1eb0eb5]
+org.elasticsearch.search.SearchParseException: [readream][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][3]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:26:38,546][DEBUG][action.search.type       ] [Shola Inkosi] [readream][4], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1eb0eb5]
+org.elasticsearch.search.SearchParseException: [readream][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][4]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:26:38,547][DEBUG][action.search.type       ] [Shola Inkosi] [readream][1], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1eb0eb5]
+org.elasticsearch.search.SearchParseException: [readream][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][1]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:26:38,547][DEBUG][action.search.type       ] [Shola Inkosi] [readream][2], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1eb0eb5]
+org.elasticsearch.search.SearchParseException: [readream][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][2]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:26:57,072][DEBUG][action.search.type       ] [Shola Inkosi] [readream][0], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1ce41e2]
+org.elasticsearch.search.SearchParseException: [readream][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][0]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:26:57,073][DEBUG][action.search.type       ] [Shola Inkosi] [readream][3], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1ce41e2]
+org.elasticsearch.search.SearchParseException: [readream][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][3]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:26:57,073][DEBUG][action.search.type       ] [Shola Inkosi] [readream][4], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1ce41e2]
+org.elasticsearch.search.SearchParseException: [readream][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][4]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:26:57,074][DEBUG][action.search.type       ] [Shola Inkosi] [readream][1], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1ce41e2]
+org.elasticsearch.search.SearchParseException: [readream][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][1]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:26:57,074][DEBUG][action.search.type       ] [Shola Inkosi] [readream][2], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1ce41e2]
+org.elasticsearch.search.SearchParseException: [readream][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][2]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:29:30,120][DEBUG][action.search.type       ] [Shola Inkosi] [readream][0], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@14fb0d3]
+org.elasticsearch.search.SearchParseException: [readream][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][0]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:29:30,120][DEBUG][action.search.type       ] [Shola Inkosi] [readream][3], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@14fb0d3]
+org.elasticsearch.search.SearchParseException: [readream][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][3]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:29:30,121][DEBUG][action.search.type       ] [Shola Inkosi] [readream][4], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@14fb0d3]
+org.elasticsearch.search.SearchParseException: [readream][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][4]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:29:30,121][DEBUG][action.search.type       ] [Shola Inkosi] [readream][1], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@14fb0d3]
+org.elasticsearch.search.SearchParseException: [readream][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][1]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:29:30,121][DEBUG][action.search.type       ] [Shola Inkosi] [readream][2], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@14fb0d3]
+org.elasticsearch.search.SearchParseException: [readream][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][2]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:41:30,503][DEBUG][action.search.type       ] [Shola Inkosi] [readream][0], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@ed4d1d]
+org.elasticsearch.search.SearchParseException: [readream][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][0]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:41:30,503][DEBUG][action.search.type       ] [Shola Inkosi] [readream][3], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@ed4d1d]
+org.elasticsearch.search.SearchParseException: [readream][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][3]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:41:30,504][DEBUG][action.search.type       ] [Shola Inkosi] [readream][4], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@ed4d1d]
+org.elasticsearch.search.SearchParseException: [readream][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][4]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:41:30,504][DEBUG][action.search.type       ] [Shola Inkosi] [readream][2], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@ed4d1d]
+org.elasticsearch.search.SearchParseException: [readream][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][2]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:41:30,504][DEBUG][action.search.type       ] [Shola Inkosi] [readream][1], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@ed4d1d]
+org.elasticsearch.search.SearchParseException: [readream][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][1]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:45:29,800][DEBUG][action.search.type       ] [Shola Inkosi] [readream][0], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c528b8]
+org.elasticsearch.search.SearchParseException: [readream][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][0]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:45:29,800][DEBUG][action.search.type       ] [Shola Inkosi] [readream][3], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c528b8]
+org.elasticsearch.search.SearchParseException: [readream][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][3]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:45:29,801][DEBUG][action.search.type       ] [Shola Inkosi] [readream][4], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c528b8]
+org.elasticsearch.search.SearchParseException: [readream][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][4]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:45:29,801][DEBUG][action.search.type       ] [Shola Inkosi] [readream][2], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c528b8]
+org.elasticsearch.search.SearchParseException: [readream][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][2]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more
+[2013-09-02 16:45:29,802][DEBUG][action.search.type       ] [Shola Inkosi] [readream][1], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c528b8]
+org.elasticsearch.search.SearchParseException: [readream][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"field":"Weis"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.search.SearchParseException: [readream][1]: from[-1],size[-1]: Parse Failure [No parser for element [field]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:563)
+	... 12 more

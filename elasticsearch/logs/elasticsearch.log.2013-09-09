@@ -1,0 +1,57 @@
+[2013-09-09 09:40:46,232][INFO ][node                     ] [Jennifer Kale] stopping ...
+[2013-09-09 09:40:46,317][INFO ][node                     ] [Jennifer Kale] stopped
+[2013-09-09 09:40:46,317][INFO ][node                     ] [Jennifer Kale] closing ...
+[2013-09-09 09:40:46,323][INFO ][node                     ] [Jennifer Kale] closed
+[2013-09-09 09:40:50,018][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2013-09-09 09:40:50,124][INFO ][node                     ] [Scanner] version[0.90.3], pid[29295], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-09-09 09:40:50,124][INFO ][node                     ] [Scanner] initializing ...
+[2013-09-09 09:40:50,136][INFO ][plugins                  ] [Scanner] loaded [analysis-mmseg, analysis-ik], sites []
+[2013-09-09 09:40:52,599][INFO ][node                     ] [Scanner] initialized
+[2013-09-09 09:40:52,599][INFO ][node                     ] [Scanner] starting ...
+[2013-09-09 09:40:52,749][INFO ][transport                ] [Scanner] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.30.139.212:9300]}
+[2013-09-09 09:40:56,011][INFO ][cluster.service          ] [Scanner] new_master [Scanner][6mf8_jTnQ6i58PkbQBjYgg][inet[/192.30.139.212:9300]], reason: zen-disco-join (elected_as_master)
+[2013-09-09 09:40:56,037][INFO ][discovery                ] [Scanner] elasticsearch/6mf8_jTnQ6i58PkbQBjYgg
+[2013-09-09 09:40:56,054][INFO ][http                     ] [Scanner] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.30.139.212:9200]}
+[2013-09-09 09:40:56,054][INFO ][node                     ] [Scanner] started
+[2013-09-09 09:40:56,269][INFO ][index.analysis           ] [Scanner] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-09 09:40:56,338][INFO ][com.chenlb.mmseg4j.Dictionary] chars loaded time=41ms, line=12638, on file=/opt/bin/elasticsearch/config/mmseg/chars.dic
+[2013-09-09 09:40:56,679][INFO ][com.chenlb.mmseg4j.Dictionary] words loaded time=340ms, line=157202, on file=/opt/bin/elasticsearch/config/mmseg/words.dic
+[2013-09-09 09:40:56,680][INFO ][com.chenlb.mmseg4j.Dictionary] words loaded time=1ms, line=1, on file=/opt/bin/elasticsearch/config/mmseg/words-my.dic
+[2013-09-09 09:40:56,680][INFO ][com.chenlb.mmseg4j.Dictionary] load all dic use time=383ms
+[2013-09-09 09:40:56,681][INFO ][com.chenlb.mmseg4j.Dictionary] unit loaded time=1ms, line=22, on file=/opt/bin/elasticsearch/config/mmseg/units.dic
+[2013-09-09 09:40:56,684][INFO ][index.analysis           ] [Scanner] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-09 09:40:56,685][INFO ][index.analysis           ] [Scanner] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-09 09:40:56,880][INFO ][ik-analyzer              ] [Dict Loading] ik/IKAnalyzer.cfg.xml
+[2013-09-09 09:40:57,338][INFO ][ik-analyzer              ] ???????ik/custom/mydict.dic
+[2013-09-09 09:40:57,349][INFO ][ik-analyzer              ] ???????ik/custom/sougou.dict
+[2013-09-09 09:40:58,494][INFO ][index.analysis           ] [Scanner] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-09 09:40:58,889][INFO ][gateway                  ] [Scanner] recovered [1] indices into cluster_state
+[2013-09-09 17:29:38,637][INFO ][node                     ] [Scanner] stopping ...
+[2013-09-09 17:29:38,752][INFO ][node                     ] [Scanner] stopped
+[2013-09-09 17:29:38,752][INFO ][node                     ] [Scanner] closing ...
+[2013-09-09 17:29:38,768][INFO ][node                     ] [Scanner] closed
+[2013-09-09 21:53:23,496][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2013-09-09 21:53:23,610][INFO ][node                     ] [Belasco] version[0.90.3], pid[1304], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-09-09 21:53:23,610][INFO ][node                     ] [Belasco] initializing ...
+[2013-09-09 21:53:23,633][INFO ][plugins                  ] [Belasco] loaded [analysis-mmseg, analysis-ik], sites []
+[2013-09-09 21:53:25,987][INFO ][node                     ] [Belasco] initialized
+[2013-09-09 21:53:25,987][INFO ][node                     ] [Belasco] starting ...
+[2013-09-09 21:53:26,237][INFO ][transport                ] [Belasco] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.30.139.212:9300]}
+[2013-09-09 21:53:29,421][INFO ][cluster.service          ] [Belasco] new_master [Belasco][xldjRpWnQXC7KDrHD4hapQ][inet[/192.30.139.212:9300]], reason: zen-disco-join (elected_as_master)
+[2013-09-09 21:53:29,480][INFO ][discovery                ] [Belasco] elasticsearch/xldjRpWnQXC7KDrHD4hapQ
+[2013-09-09 21:53:29,497][INFO ][http                     ] [Belasco] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.30.139.212:9200]}
+[2013-09-09 21:53:29,497][INFO ][node                     ] [Belasco] started
+[2013-09-09 21:53:29,925][INFO ][index.analysis           ] [Belasco] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-09 21:53:29,968][INFO ][com.chenlb.mmseg4j.Dictionary] chars loaded time=42ms, line=12638, on file=/opt/bin/elasticsearch/config/mmseg/chars.dic
+[2013-09-09 21:53:30,361][INFO ][com.chenlb.mmseg4j.Dictionary] words loaded time=385ms, line=157202, on file=/opt/bin/elasticsearch/config/mmseg/words.dic
+[2013-09-09 21:53:30,366][INFO ][com.chenlb.mmseg4j.Dictionary] words loaded time=5ms, line=1, on file=/opt/bin/elasticsearch/config/mmseg/words-my.dic
+[2013-09-09 21:53:30,367][INFO ][com.chenlb.mmseg4j.Dictionary] load all dic use time=441ms
+[2013-09-09 21:53:30,375][INFO ][com.chenlb.mmseg4j.Dictionary] unit loaded time=8ms, line=22, on file=/opt/bin/elasticsearch/config/mmseg/units.dic
+[2013-09-09 21:53:30,378][INFO ][index.analysis           ] [Belasco] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-09 21:53:30,379][INFO ][index.analysis           ] [Belasco] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-09 21:53:30,938][INFO ][ik-analyzer              ] [Dict Loading] ik/IKAnalyzer.cfg.xml
+[2013-09-09 21:53:31,669][INFO ][ik-analyzer              ] ???????ik/custom/mydict.dic
+[2013-09-09 21:53:31,686][INFO ][ik-analyzer              ] ???????ik/custom/sougou.dict
+[2013-09-09 21:53:33,366][INFO ][index.analysis           ] [Belasco] [readream] /opt/bin/elasticsearch/config/mmseg
+[2013-09-09 21:53:33,790][INFO ][gateway                  ] [Belasco] recovered [1] indices into cluster_state
+[2013-09-09 21:53:48,330][INFO ][cluster.metadata         ] [Belasco] [readream] update_mapping [books] (dynamic)

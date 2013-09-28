@@ -1,0 +1,175 @@
+[2013-09-03 21:41:22,350][DEBUG][action.search.type       ] [Shola Inkosi] [readream][4], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6e066e]
+org.elasticsearch.search.SearchParseException: [readream][4]: from[0],size[40]: Parse Failure [Failed to parse source [{"from":"0","size":"40","query":{"query_string":{"query":"\"al-masry al-youm"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [readream] Failed to parse query ["al-masry al-youm]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:227)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '"al-masry al-youm': Lexical error at line 1, column 18.  Encountered: <EOF> after : "\"al-masry al-youm"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:131)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:213)
+	... 17 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 18.  Encountered: <EOF> after : "\"al-masry al-youm"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:638)
+	at org.apache.lucene.queryparser.classic.QueryParser.Modifiers(QueryParser.java:136)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:180)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:121)
+	... 18 more
+[2013-09-03 21:41:22,350][DEBUG][action.search.type       ] [Shola Inkosi] [readream][0], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6e066e]
+org.elasticsearch.search.SearchParseException: [readream][0]: from[0],size[40]: Parse Failure [Failed to parse source [{"from":"0","size":"40","query":{"query_string":{"query":"\"al-masry al-youm"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [readream] Failed to parse query ["al-masry al-youm]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:227)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '"al-masry al-youm': Lexical error at line 1, column 18.  Encountered: <EOF> after : "\"al-masry al-youm"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:131)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:213)
+	... 17 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 18.  Encountered: <EOF> after : "\"al-masry al-youm"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:638)
+	at org.apache.lucene.queryparser.classic.QueryParser.Modifiers(QueryParser.java:136)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:180)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:121)
+	... 18 more
+[2013-09-03 21:41:22,350][DEBUG][action.search.type       ] [Shola Inkosi] [readream][3], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6e066e]
+org.elasticsearch.search.SearchParseException: [readream][3]: from[0],size[40]: Parse Failure [Failed to parse source [{"from":"0","size":"40","query":{"query_string":{"query":"\"al-masry al-youm"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [readream] Failed to parse query ["al-masry al-youm]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:227)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '"al-masry al-youm': Lexical error at line 1, column 18.  Encountered: <EOF> after : "\"al-masry al-youm"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:131)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:213)
+	... 17 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 18.  Encountered: <EOF> after : "\"al-masry al-youm"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:638)
+	at org.apache.lucene.queryparser.classic.QueryParser.Modifiers(QueryParser.java:136)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:180)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:121)
+	... 18 more
+[2013-09-03 21:41:22,396][DEBUG][action.search.type       ] [Shola Inkosi] [readream][1], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6e066e]
+org.elasticsearch.search.SearchParseException: [readream][1]: from[0],size[40]: Parse Failure [Failed to parse source [{"from":"0","size":"40","query":{"query_string":{"query":"\"al-masry al-youm"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [readream] Failed to parse query ["al-masry al-youm]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:227)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '"al-masry al-youm': Lexical error at line 1, column 18.  Encountered: <EOF> after : "\"al-masry al-youm"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:131)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:213)
+	... 17 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 18.  Encountered: <EOF> after : "\"al-masry al-youm"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:638)
+	at org.apache.lucene.queryparser.classic.QueryParser.Modifiers(QueryParser.java:136)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:180)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:121)
+	... 18 more
+[2013-09-03 21:41:22,397][DEBUG][action.search.type       ] [Shola Inkosi] [readream][2], node[iwRMf9UzRuaiftKMacu35A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6e066e]
+org.elasticsearch.search.SearchParseException: [readream][2]: from[0],size[40]: Parse Failure [Failed to parse source [{"from":"0","size":"40","query":{"query_string":{"query":"\"al-masry al-youm"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [readream] Failed to parse query ["al-masry al-youm]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:227)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '"al-masry al-youm': Lexical error at line 1, column 18.  Encountered: <EOF> after : "\"al-masry al-youm"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:131)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:213)
+	... 17 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 18.  Encountered: <EOF> after : "\"al-masry al-youm"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:638)
+	at org.apache.lucene.queryparser.classic.QueryParser.Modifiers(QueryParser.java:136)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:180)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:121)
+	... 18 more
