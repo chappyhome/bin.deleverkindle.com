@@ -3,14 +3,16 @@
 
 import sqlite3
 import redis
+import sys
 from os import path
 import ConfigParser
 
 pool = redis.ConnectionPool(host='127.0.0.1', port=6379)  
 r = redis.Redis(connection_pool=pool)
 
+conf = "config.conf" if len(sys.argv) < 2 else sys.argv[1]
 cf = ConfigParser.ConfigParser()
-cf.read("config.conf")
+cf.read(conf)
 
 CALIBRE_ALL_BOOKS_SET  = cf.get("key", "CALIBRE_ALL_BOOKS_SET")
 data_save_repository = cf.get("path", "data_save_repository")
